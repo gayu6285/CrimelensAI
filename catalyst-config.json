@@ -1,0 +1,11 @@
+{
+	"deployment": {
+		"name": "crimeanalyticsapi",
+		"stack": "java21",
+		"type": "basicio",
+		"env_variables": {}
+	},
+	"execution": {
+		"main": "CrimeApi"
+	}
+}

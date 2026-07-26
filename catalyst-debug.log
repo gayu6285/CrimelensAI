@@ -1,0 +1,69 @@
+[debug] [2026-07-26T16:53:29.170Z] : 
+[debug] [2026-07-26T16:53:29.174Z] : ----------------------------------------------------------------------
+[debug] [2026-07-26T16:53:29.176Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\DELL\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js init --force
+[debug] [2026-07-26T16:53:29.177Z] : CLI Version:  1.27.0
+[debug] [2026-07-26T16:53:29.178Z] : Platform:     win32
+[debug] [2026-07-26T16:53:29.178Z] : Node Version: v26.5.0
+[debug] [2026-07-26T16:53:29.179Z] : Time:         Sun Jul 26 2026 22:23:29 GMT+0530 (India Standard Time)
+[debug] [2026-07-26T16:53:29.179Z] : ----------------------------------------------------------------------
+[debug] [2026-07-26T16:53:29.179Z] : 
+[debug] [2026-07-26T16:53:31.613Z] : > authorizing via signed-in user option
+[debug] [2026-07-26T16:53:31.613Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.projects.ALL","ZohoCatalyst.project.import.CREATE"]
+[debug] [2026-07-26T16:53:31.807Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/55650000000013048 
+
+[debug] [2026-07-26T16:53:32.216Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 26 Jul 2026 16:53:32 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2026-07-26T16:53:32.230Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/55650000000013048/environment 
+
+[debug] [2026-07-26T16:53:32.308Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 26 Jul 2026 16:53:32 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2026-07-26T16:53:32.316Z] : 
+      ___  
+      \  \     ____           _             _                 _   
+   ___ \  \   / ___|   __ _  | |_    __ _  | |  _   _   ___  | |_ 
+  /  / /  /  | |      / _` | | __|  / _` | | | | | | | / __| | __|
+ /  / /__/   | |___  | (_| | | |_  | (_| | | | | |_| | \__ \ | |_ 
+ \  \         \____|  \__,_|  \__|  \__,_| |_|  \__, | |___/  \__|
+  \__\                                          |___/       
+
+You're about to initialize a Catalyst project in this directory:
+
+  C:\Users\DELL\Downloads\crime-analytics-platform
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Catalyst project directory
+[debug] [2026-07-26T16:53:32.355Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/orgs 
+
+[debug] [2026-07-26T16:53:32.418Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 26 Jul 2026 16:53:32 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2026-07-26T16:53:32.448Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project 
+
+[debug] [2026-07-26T16:53:32.521Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 26 Jul 2026 16:53:32 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2026-07-26T16:53:37.770Z] : 
+[info] [2026-07-26T16:53:37.771Z] : i Setting up a new default project for this folder
+[debug] [2026-07-26T16:53:37.773Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/55650000000013048/environment 
+
+[debug] [2026-07-26T16:53:37.959Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 26 Jul 2026 16:53:38 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[info] [2026-07-26T16:53:37.993Z] : i .catalystrc file has be successfully created with project details.
+[info] [2026-07-26T16:53:37.995Z] : 
+[info] [2026-07-26T16:53:42.564Z] : 
+[info] [2026-07-26T16:53:42.565Z] : ===> Functions Setup
+[info] [2026-07-26T16:53:42.758Z] : i A directory functions will be created with a catalyst function pre-configured.
+
+[debug] [2026-07-26T16:53:42.761Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/get-details 
+Query params: {"feature_name":"integration_services"}
+
+[debug] [2026-07-26T16:53:42.932Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 26 Jul 2026 16:53:43 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","x-content-type-options":"nosniff","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[warn] [2026-07-26T16:53:47.114Z] : ‼ skipping function setup
+[info] [2026-07-26T16:53:47.115Z] : 
+[info] [2026-07-26T16:53:47.115Z] : ===> Client Setup
